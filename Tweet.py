@@ -7,8 +7,8 @@ import requests
 #auth.set_access_token("TOKEN", "SECRET_TOKEN")
 
 
-auth = tweepy.OAuthHandler("9f9YFxGNALK6Fq4xyzrdjZo6E", "ZoLexDlcoI9lD5yVcborHoDg5KqfNNe6EezNHB0er1IZ1vD3Qb")
-auth.set_access_token("1493936998519824384-trdrlTrLrpawc9Sf0hDeUpQM56Ynlh", "JRWOoAfxx2cO91G9GWkN3ByN09q1HEdBL0lNxflDDHZpg")
+auth = tweepy.OAuthHandler("", "")
+auth.set_access_token("", "")
 
 # Create API object
 api = tweepy.API(auth)
